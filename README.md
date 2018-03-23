@@ -23,7 +23,8 @@ Click this button:
 1. `heroku create`
 1. `heroku config:set SLACK_POKER_BOT_TOKEN=[Your API token]`
 1. `git push heroku master`
-
+#### Run with Docker
+1. `docker run -d -e "SLACK_POKER_BOT_TOKEN=[Your API token]" bernardjeremy/slack-poker-bot` 
 #### To Run Locally
 1. Create a `token.txt` file and paste your API token there
 1. `npm install`
